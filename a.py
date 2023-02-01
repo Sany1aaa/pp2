@@ -1,2 +1,4 @@
-w = 'asdfra'
-print(w[2:5]) 
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x) 
+  
