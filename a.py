@@ -1,2 +1,2 @@
 w = 'asdfra'
-print(w[2:5])
+print(w[2:5]) 
