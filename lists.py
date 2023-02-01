@@ -30,5 +30,18 @@ thislist.pop(1) # удалить первыйй элемент
 thislist.pop() #удалить last item
 del thislist[0] #delete 
 
+#LOOP LISTS 
+slist = ["apple", "banana", "cherry"]
+for x in slist: # вывести все элементы 
+    #for i in range(len(thislist)): (тоже самое)
+ print(x) 
+#циклично вывести все элементы
+islist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(islist):
+  print(islist[i])
+  i = i + 1
+
+
 
 
