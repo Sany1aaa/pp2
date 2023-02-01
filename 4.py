@@ -4,4 +4,8 @@ def myFunction() :
 if myFunction():
   print("YES!")
 else:
-  print("NO!")
+  print("NO!") 
+
+  
+x = {}
+print(isinstance(x, int))
