@@ -1,6 +1,6 @@
 def my_function(fname):
-  print(fname + " Refsnes")
+  print(fname + " M")
 
-my_function("Emil")
-my_function("Tobias")
-my_function("Linus") 
+my_function("Saniya")
+my_function("Sayat")
+my_function("Saya") 
