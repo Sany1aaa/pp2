@@ -12,7 +12,7 @@ try:
 
     cursor = connection.cursor()
     # Выполнение SQL-запроса для вставки данных в таблицу
-    insert_query = """ INSERT INTO mobile (ID, MODEL, PRICE) VALUES (1, 'Iphone12', 1100)"""
+    insert_query = """ INSERT INTO mobile (ID, NAME, PHONENUMBER) VALUES (1, 'Saniya', 7475895293)"""
     cursor.execute(insert_query)
     connection.commit()
     print("1 запись успешно вставлена")
@@ -22,11 +22,11 @@ try:
     print("Результат", record)
 
     # Выполнение SQL-запроса для обновления таблицы
-    update_query = """Update mobile set price = 1500 where id = 1"""
+    update_query = """Update name set phonenumber = 87475895293 where id = 1"""
     cursor.execute(update_query)
     connection.commit()
     count = cursor.rowcount
-    print(count, "Запись успешно удалена")
+    print(count, "Запись успешно обновлена")
     # Получить результат
     cursor.execute("SELECT * from mobile")
     print("Результат", cursor.fetchall())
